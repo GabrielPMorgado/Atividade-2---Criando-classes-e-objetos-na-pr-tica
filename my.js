@@ -1,4 +1,3 @@
-    // Código para a Classe Retangulo
 class Retangulo {
     constructor(largura = 0, altura = 0) {
         this.largura = largura;
@@ -35,10 +34,10 @@ class Retangulo {
     }
 }
 
-// Instância global do Retangulo
+
 const retangulo = new Retangulo();
 
-// Função para atualizar o retângulo com base na entrada do usuário
+
 function atualizarRetangulo() {
     const largura = parseFloat(document.getElementById('input-largura').value) || 0;
     const altura = parseFloat(document.getElementById('input-altura').value) || 0;
@@ -46,7 +45,7 @@ function atualizarRetangulo() {
     retangulo.setAltura(altura);
 }
 
-// Código para a Classe Calculadora
+
 class Calculadora {
     constructor() {
         this.resultado = 0;
@@ -116,10 +115,10 @@ class Calculadora {
     }
 }
 
-// Instância global da Calculadora
+
 const calculadora = new Calculadora();
 
-// Função para realizar uma operação com base na entrada do usuário
+
 function operar(operacao) {
     const valor = parseFloat(document.getElementById('input-valor').value) || 0;
     switch (operacao) {
@@ -144,7 +143,6 @@ function operar(operacao) {
     }
 }
 
-// Funções para operações adicionais
 function raizQuadrada() {
     calculadora.raizQuadrada();
 }
