@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+button:nth-of-type(1) { background-color: #28a745; }
+button:nth-of-type(1):hover { background-color: #218838; }
+button:nth-of-type(2) { background-color: #dc3545; }
+button:nth-of-type(2):hover { background-color: #c82333; }
+button:nth-of-type(3) { background-color: #17a2b8; }
+button:nth-of-type(3):hover { background-color: #117a8b; }
+button:nth-of-type(4) { background-color: #ffc107; }
+button:nth-of-type(4):hover { background-color: #e0a800; }
+button:nth-of-type(5) { background-color: #6c757d; }
+button:nth-of-type(5):hover { background-color: #5a6268; }
+button:nth-of-type(6) { background-color: #343a40; }
+button:nth-of-type(6):hover { background-color: #23272b; }
+
+
+#resultado, #perimetro, #area, #eh-quadrado {
+    font-weight: bold;
+}

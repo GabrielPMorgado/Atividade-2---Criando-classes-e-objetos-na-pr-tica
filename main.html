@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora e Retângulo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Retângulo</h2>
+        <p id="perimetro">Perímetro: 0</p>
+        <p id="area">Área: 0</p>
+        <p id="eh-quadrado">É um quadrado? Não</p>
+        <input type="number" id="input-largura" placeholder="Largura">
+        <input type="number" id="input-altura" placeholder="Altura">
+        <button onclick="atualizarRetangulo()">Atualizar Retângulo</button>
+    </div>
+    
+    <div class="container">
+        <h2>Calculadora</h2>
+        <p id="resultado">Resultado: 0</p>
+        <input type="number" id="input-valor" placeholder="Valor">
+        <button onclick="operar('soma')">Soma</button>
+        <button onclick="operar('subtracao')">Subtração</button>
+        <button onclick="operar('multiplicacao')">Multiplicação</button>
+        <button onclick="operar('divisao')">Divisão</button>
+        <button onclick="operar('potencia')">Potência</button>
+        <button onclick="operar('porcentagem')">Porcentagem</button>
+        <button onclick="raizQuadrada()">Raiz Quadrada</button>
+        <button onclick="zerar()">Zerar</button>
+        <button onclick="desfazer()">Desfazer</button>
+    </div>
+
+    <script src="my.js"></script>
+</body>
+</html>
